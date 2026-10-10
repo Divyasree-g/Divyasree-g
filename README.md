@@ -10,7 +10,7 @@ I'm looking for full-time and internship roles in **business analysis** and **da
 I built a prompt-based agent and tested three open-source models on the MetaTool benchmark to see how well each one decides whether a tool is needed and which of 47 tools to pick. The best model chose the right tool about 68% of the time, and one model refused to use a tool on a third of the queries.
 
 **[Does the way you ask change the answer? LLMs on bug reports](https://github.com/Divyasree-g/genai-bug-report-interpretation)**
-A team project where we gave Claude Sonnet the same real Bugzilla reports under three different prompt framings and scored the answers on a five-part rubric. I designed the three prompt formulations. The model got the bug type right every time, but only the technical framing consistently produced steps a developer could act on.
+A team project where we gave Gemini 2.5 Flash-Lite the same real Bugzilla reports under three different prompt framings and scored 30 blind-labeled answers on a five-part rubric. I designed the three prompt formulations. Asking for the bug's lifecycle scored highest overall, and the framing made the biggest difference to whether the model used the discussion thread at all.
 
 **[Detecting phishing emails with machine learning and NLP](https://github.com/Divyasree-g/Detecting-Phishing-Attacks-Using-Machine-Learning-and-NLP)**
 A text classification project that cleans raw email text, turns it into TF-IDF and n-gram features, and compares several classifiers on precision, recall and F1.
